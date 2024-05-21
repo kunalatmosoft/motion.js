@@ -1,0 +1,7 @@
+{
+    "outputDirectory": "dist",
+    "routes": [
+      { "src": "/motionLibrary.bundle.js", "dest": "/dist/motionLibrary.bundle.js" }
+    ]
+  }
+  
