@@ -39,7 +39,37 @@ A simple JavaScript library for basic motion and animation tasks.
 
 Include the library in your HTML file and use the functions as shown in the examples below:
 
-### HTML
+
+```javascript
+// Get the element
+const element = document.getElementById('myElement');
+
+// Move the element to position (100, 200) over 1 second
+MotionLibrary.moveTo(element, 100, 200, 1000);
+
+```
+### Fading In an Element
+To fade in an element over a duration:
+```javascript
+// Get the element
+const element = document.getElementById('myElement');
+
+// Fade in the element over 0.5 seconds
+MotionLibrary.fadeIn(element, 500);
+```
+
+### Fading Out an Element
+To fade out an element over a duration:
+
+```Javascript
+// Get the element
+const element = document.getElementById('myElement');
+
+// Fade out the element over 0.5 seconds
+MotionLibrary.fadeOut(element, 500);
+```
+
+### HTML TUTORIAL
 
 ```html
 <!DOCTYPE html>
@@ -64,7 +94,7 @@ Include the library in your HTML file and use the functions as shown in the exam
 
 <div id="demoElement"></div>
 
-<script src="https://your-project-name.vercel.app/motionLibrary.bundle.js"></script>
+<script src="https://motion-js.vercel.app/motionLibrary.bundle.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const demoElement = document.getElementById('demoElement');
@@ -105,3 +135,65 @@ Include the library in your HTML file and use the functions as shown in the exam
 </body>
 </html>
 ```
+
+## Development
+- To contribute to the Motion Library:
+
+- Clone the repository.
+- Install dependencies: npm install
+- Make your changes.
+- Build the project: npm run build
+- Test your changes.
+
+
+### Alternative way
+```react
+import {
+    moveTo,
+    fadeIn,
+    fadeOut,
+    scale,
+    rotate,
+    skew,
+    translate,
+    changeBackgroundColor,
+    changeTextColor,
+    setWidth,
+    setHeight,
+    changeBorderColor,
+    blur,
+    brighten,
+    grayscale,
+    invert,
+    changeBorderRadius,
+    changeOpacity,
+    slideRight,
+    slideLeft,
+    slideUp,
+    slideDown,
+    rotateX,
+    rotateY,
+    rotateZ,
+    flipHorizontally,
+    flipVertically,
+    changeZIndex,
+    changeBoxShadow,
+    changeTextShadow
+} from './motionLibrary.js';
+
+// Example usage
+const demoElement = document.getElementById('demoElement');
+
+moveTo(demoElement, 200, 200, 1000);
+fadeIn(demoElement, 1000);
+```
+
+
+### installing dependencies!
+npm install webpack webpack-cli --save-dev
+### installing the dist/.bundle.js
+npx webpack
+
+
+&copy;All the Rights are reserved! -Atmosoft&trade;
+~president & Co-Founder KUNAL SINGH
