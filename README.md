@@ -147,7 +147,7 @@ MotionLibrary.fadeOut(element, 500);
 
 
 ### Alternative way
-```react
+```javascript
 import {
     moveTo,
     fadeIn,
@@ -190,10 +190,13 @@ fadeIn(demoElement, 1000);
 
 
 ### installing dependencies!
+```bash
 npm install webpack webpack-cli --save-dev
+```
 ### installing the dist/.bundle.js
+```bash
 npx webpack
-
+```
 
 &copy;All the Rights are reserved! -Atmosoft&trade;
 ~president & Co-Founder KUNAL SINGH
