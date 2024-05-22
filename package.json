@@ -6,9 +6,9 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "KUNAL SINGH",
+  "license": "MIT",
+  "description": "motion.js",
   "devDependencies": {
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
